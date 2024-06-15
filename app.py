@@ -10,7 +10,7 @@ import requests
 app = Flask(__name__)
 
 # URL dari file index.html di GitHub
-GITHUB_HTML_URL = 'https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/index.html'
+GITHUB_HTML_URL = 'https://github.com/Beebane25/projek-pbl/blob/root/index.html'
 
 @app.route('/')
 def index():
